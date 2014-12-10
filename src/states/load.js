@@ -20,6 +20,6 @@ module.exports = {
     },
 
     create: function () {
-        //        game.state.start('menu');
+        game.state.start('menu');
     }
 };
