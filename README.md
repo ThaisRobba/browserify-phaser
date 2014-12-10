@@ -3,12 +3,30 @@ browserify-phaser
 
 Testing and building Phaser projects with Browserify and Beefy!
 
-###Installation & Running
+###Installation
 
-Be sure to install Beefy and Browserify first. Done? Awesome.
+Installation is dead easy and assumes you have already installed node.js and npm.
 
-Now cd to the root directory in the command line and run the following command:
+Download and extract the template and cd into it from the command line.
 
-    beefy src/game.js:bundle.js --live --open --bug=true
+    npm install    
+
+Done? Awesome.
+
+###Running
+
+Now, still at the root directory, we can either run the following command:
+
+    beefy src/game.js:bundle.js --live --open
+    
+Or simple start the shell script that does exactly the same:
+
+    sh start.sh
     
 Done!
+
+###Extras
+
+The template includes a few useful default states (loading screen, menu, play state), the code is commented and should be easy enough to understand. There are also a few assets included, mostly to give you a baseline to work from.
+
+![Loading screen](http://i.imgur.com/eDImkI5.png)
