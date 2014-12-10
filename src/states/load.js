@@ -17,6 +17,11 @@ module.exports = {
     preload: function () {
         this.loadingLabel();
         //Add here all the assets that you need to game.load
+        game.load.image('menu_title', 'assets/menu_game_title.png');
+        game.load.image('menu_arrow', 'assets/menu_arrow.png');
+        game.load.image('menu_button1', 'assets/menu_button.png');
+        game.load.image('menu_button2', 'assets/menu_button2.png');
+        game.load.image('menu_button3', 'assets/menu_button3.png');
     },
 
     create: function () {
