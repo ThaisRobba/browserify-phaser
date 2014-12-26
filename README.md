@@ -1,7 +1,7 @@
 browserify-phaser
 =================
 
-Testing and building Phaser projects with Browserify and Beefy!
+Testing and building Phaser projects with Browserify and Beefy! Also [available in CoffeeScript](https://github.com/OttoRobba/browserify-phaser-coffeescript).
 
 ###Installation
 
