@@ -1,3 +1,5 @@
+# No longer maintained nor updated
+
 browserify-phaser
 =================
 
